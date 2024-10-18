@@ -10,7 +10,7 @@ try:
     elif grade>=40 and grade<= 49:
         print("Your grade is: D")
     elif grade >= 0 and grade< 39:
-        print("Your grade is F") 
+        print("Your grade is: F") 
     elif grade <0 or grade>100:
         print("Error: Grades must be between 0 and 100")
 except ValueError:
